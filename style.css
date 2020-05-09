@@ -3,13 +3,21 @@ body, html {
   padding: 0px;
   font-size: 12vw;
 }
+@font-face {
+  font-family: "JollyRoger";
+  src: url("JollyRoger.ttf");
+}
+@font-face {
+  font-family: "Caslon";
+  src: url("CaslonOpenFace.ttf");
+}
 .maincontainer{
   position: absolute;
 
 }
 .my{
   font-family: 'JollyRoger';
-      src: url(JollyRoger.ttf) format('truetype');
+
       font-weight: normal;
       font-style: normal;
       position: absolute;
@@ -22,7 +30,7 @@ body, html {
 }
 .HOMEWORK{
   font-family: 'JollyRoger';
-      src: url(JollyRoger.ttf) format('truetype');
+
       font-weight: normal;
       font-style: normal;
       position: absolute;
@@ -34,8 +42,7 @@ body, html {
       -webkit-text-stroke: .2vh yellow;
 }
 .caslon{
-  font-family: 'Caslon Open Face';
-  src: url(CaslonOpenFace.ttf) format('truetype');
+  font-family: 'Caslon';
   font-weight: 300;
   font-style: normal;
   display: flex;
